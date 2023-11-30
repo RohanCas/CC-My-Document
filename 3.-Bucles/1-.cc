@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;
+
 
 int main() 
 {
@@ -9,10 +9,10 @@ int main()
     while(contador < 5 )  // condición de prueba    
      {
         contador ++;
-        cout<< "contador: " << contador << "\n"; //actualuización(incrementa en un 1)
+        std::cout<< "contador: " << contador << "\n"; //actualuización(incrementa en un 1)
         
      } 
 
-     cout<< "Terminado.Contador: " << contador << "\n";
+     std::cout<< "Terminado.Contador: " << contador << "\n";
      return 0;
 }
