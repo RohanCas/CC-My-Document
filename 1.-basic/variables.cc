@@ -11,4 +11,11 @@ int main() {
 }
     //tipos de enteros 
     short enteroCorto = 10;
-    
+    long enteroLargo = 1000000;
+    unsigned int enteroSinSigno = 5;
+
+
+
+
+
+
