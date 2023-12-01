@@ -8,7 +8,7 @@ int main() {
     double salario = 1500.75;
     char esCierto = true;
 
-}
+
     //tipos de enteros 
     short enteroCorto = 10;
     long enteroLargo = 1000000;
@@ -30,6 +30,42 @@ int main() {
     //otros tipos 
     string cadena = "Hola, Mundo!";
     int arreglosEnteros[] = {1, 2, 3, 4, 5}
+    int* punteroEntero = &edad;
+
+
+    // Mostrar los valores de las variables 
+
+    cout << "Edad: " << edad << endl;
+    cout << "salario: " << salario << endl;
+    cout << "salario: " << salario << endl;
+    cout << "letra: " << letra << endl;
+    cout << << "Es Cierto: " << esCierto << endl;
+
+    cout << "Entero Corto: " << enteroCorto << endl;
+    cout << "Entero Largo: " << enteroLargo << endl;
+    cout << "Entero Sin Signo: " << enteroSinSigno << endl;
+ 
+    cout << "Altura: " << altura << endl;
+    cout << "Pi: " << pi << endl;
+ 
+    wcout << "Caracter Ancho: " << caracterAncho << endl;
+ 
+    cout << "Es Falso: " << esFalso << endl;
+ 
+    cout << "Cadena: " << cadena << endl;
+
+    cout << "Arreglo de Enteros: ";
+    for (int i = 0; i < 5; ++i) {
+        cout << arregloEnteros[i] << " ";
+    }
+    cout << endl;
+ 
+    cout << "Puntero a Entero: " << *punteroEntero << endl;
+ 
+    return 0;
+}
+
+
 
 
 
