@@ -19,7 +19,19 @@ int main() {
     float altura = 1.75f;
     long double pi = 3.141592653589793;
 
-    
+    //tipos caracteres
+    wchar_t caracterAncho = L' A';
+
+
+    //tipos de boleanos
+    bool esFalso = false;
+
+
+    //otros tipos 
+    string cadena = "Hola, Mundo!";
+    int arreglosEnteros[] = {1, 2, 3, 4, 5}
+
+
 
 
 
