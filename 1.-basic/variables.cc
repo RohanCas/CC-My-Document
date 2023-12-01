@@ -15,6 +15,11 @@ int main() {
     unsigned int enteroSinSigno = 5;
 
 
+    //tipos de punto flotante 
+    float altura = 1.75f;
+    long double pi = 3.141592653589793;
+
+    
 
 
 
